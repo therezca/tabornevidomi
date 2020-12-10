@@ -30,7 +30,7 @@ h2 {
 
 @media screen and (max-width: 600px) {
   h2 {
-    font-size: 36px;
+    padding: 15px;
   }
 }
 
@@ -113,7 +113,7 @@ h4 {
   }
   .hero__h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 42px;
   }
   .hero .line {
     margin: auto;
@@ -242,7 +242,7 @@ h4 {
 }
 
 .maindva__buttonkolem {
-  padding: 30px;
+  padding: 15px;
   text-align: center;
 }
 
@@ -544,6 +544,12 @@ h4 {
         grid-template-columns: repeat(1, 1fr);
     -ms-grid-rows: (300px)[4];
         grid-template-rows: repeat(4, 300px);
+  }
+  .galerie__grid2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
   }
 }
 
