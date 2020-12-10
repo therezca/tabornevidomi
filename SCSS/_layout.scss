@@ -292,15 +292,13 @@
                 grid-template-rows: repeat(4, 300px)}
 
             &__grid2 {display: grid;
-               grid-template-columns: repeat(1, 1fr);
+               grid-template-columns: repeat(1, 1fr);}
 
             &__blog  {padding: 5px;}
 
-            &__row, &__row2 {padding: 30px 15px;
-
-                }
+            &__row, &__row2 {padding: 30px 15px;}
                 
-            }}
+            }
     
         
     
