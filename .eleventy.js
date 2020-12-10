@@ -6,7 +6,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("soubor");
 
 	// Zkopírovat `css/` to `_site/css/`
-  eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("CSS");
   eleventyConfig.addPassthroughCopy("js");
     
       return {
