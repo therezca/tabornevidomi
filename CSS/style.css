@@ -434,6 +434,13 @@ h4 {
     -ms-grid-columns: 50px 1fr;
         grid-template-columns: 50px 1fr;
   }
+  .oblasti__perex {
+    text-align: left;
+    padding: 30px 50px;
+  }
+  .oblasti__buttonkolem {
+    padding: 5px;
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1000px) {
@@ -553,6 +560,9 @@ h4 {
   }
   .galerie__grid2__blog {
     padding: 5px;
+  }
+  .galerie__grid2__row, .galerie__grid2__row2 {
+    padding: 30px 15px;
   }
 }
 
