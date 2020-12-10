@@ -1,0 +1,75 @@
+.hero {background: $seda;
+
+
+    &__h1 {font-size: 42px;}
+
+
+
+    &__kontejner {max-width: 1100px;display: flex;
+        margin: auto;
+        justify-content: space-between;
+        padding-top: 50px;
+    padding-bottom: 50px;}
+
+    &__perex {font-size: 16px; font-weight: lighter;
+        margin-bottom: 50px;}
+
+    
+    &__fotka {border-radius: 50% 0;
+    width: 100%;
+    
+}
+&__fotka:hover {
+    filter: blur(2px);
+}
+    
+
+    &__sloupec2, &__sloupec  {
+        flex: 0 0 calc((100% / 2) - 50px)}
+
+    @media screen and (max-width: 600px) {
+
+        &__kontejner {flex-direction: column;}
+        
+        &__sloupec2 {
+        padding: 30px;}
+
+        &__h1 {text-align: center;
+        font-size: 50px;}
+
+        .line {margin: auto;}
+
+        &__perex {font-size: 20px;
+        text-align: center;
+        padding: 0px 20px;}
+    }
+    
+    
+    @media screen and (min-width:601px) and (max-width: 1000px) {
+
+        &__kontejner {flex-direction: column;
+        justify-content: center;
+    align-items: center;}
+        
+        &__sloupec2 {
+        padding: 30px;}
+
+        &__h1 {text-align: center;
+        font-size: 50px;}
+
+        .line {margin: auto;}
+
+        &__perex {font-size: 20px;
+        text-align: center;
+        padding: 0px 20px;}
+
+        &__fotka {max-width: 80%;}
+
+       
+    }
+
+
+}
+
+
+
