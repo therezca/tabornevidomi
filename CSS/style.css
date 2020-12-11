@@ -123,6 +123,10 @@ h4 {
     text-align: center;
     padding: 0px 20px;
   }
+  .hero__fotka:hover {
+    -webkit-filter: none;
+            filter: none;
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1000px) {
@@ -1038,7 +1042,7 @@ h4 {
 }
 
 .header__logo {
-  padding-top: 15px;
+  padding: 15px;
 }
 
 .menu__checkbox {
@@ -1081,6 +1085,7 @@ h4 {
   font-size: 40px;
   position: absolute;
   right: 0px;
+  padding: 15px;
 }
 
 .header__button--primary {
@@ -1138,6 +1143,7 @@ h4 {
   }
   .header__logo {
     margin: 0px;
+    padding-top: 15px;
   }
   .header__nav {
     margin: auto;
