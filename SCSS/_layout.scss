@@ -310,3 +310,51 @@
             }
 }
 
+
+.novinky {max-width: 1100px;
+    margin: auto;
+    padding: 30px 0px 70px 0px;
+    
+    &__grid {display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px}
+
+    &__h2 {padding-bottom: 60px;
+    text-align: center;}
+
+    &__h5 {font-size: 18px;
+    text-align: center;}
+
+    &__post {border-color:$bezova;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 1px;
+        }
+
+    &__obrys {
+        display: flex;}
+    
+
+
+         @media screen and (max-width: 600px){
+                
+         &__grid {
+         grid-template-columns: 1fr;
+        gap: 0px;} 
+
+        &__obrys {
+            padding: 0px 30px;}
+        }
+            
+        @media screen and (min-width:601px) and (max-width: 1000px) {
+                
+            &__grid {
+                grid-template-columns: 1fr;
+               gap: 0px;} 
+              
+               &__obrys {
+                   padding: 0px 30px;}
+               
+        }
+    
+}
