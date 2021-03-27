@@ -313,7 +313,7 @@
 
 .novinky {max-width: 1100px;
     margin: auto;
-    padding: 30px 0px 70px 0px;
+    
     
     &__grid {display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -322,13 +322,14 @@
     &__h2 {padding-bottom: 60px;
     text-align: center;}
 
-    &__h5 {font-size: 18px;
+    &__nadpis {font-size: 22px;
     text-align: center;}
 
     &__post {border-color:$bezova;
         border-radius: 20px;
         border-style: solid;
         border-width: 1px;
+        margin: auto;
         }
 
     &__obrys {
