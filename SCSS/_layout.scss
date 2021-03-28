@@ -273,7 +273,9 @@
     &__ramecek {overflow: hidden;}
     
     &__blog {a {text-decoration: none;
-        color:$zelena;}
+        color:$zelena;
+    border: 1px solid $bezova;
+border-radius: 20px;}
 
     
     a:hover {color: $bezova;}
@@ -318,7 +320,7 @@
 }
 
 
-.novinky {
+.novinky {padding-bottom: 60px;
     
     &__obal {
         max-width: 1100px;
@@ -332,7 +334,7 @@
     text-align: center;}
 
     &__nadpis {font-size: 22px;
-    text-align: center;}
+    text-align: left;}
 
     &__post {border-color:$bezova;
         border-radius: 20px;

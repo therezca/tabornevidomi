@@ -521,6 +521,8 @@ h4 {
 .galerie__blog a {
   text-decoration: none;
   color: #c1ff65;
+  border: 1px solid #d3cc9e;
+  border-radius: 20px;
 }
 
 .galerie__blog a:hover {
@@ -584,6 +586,10 @@ h4 {
   }
 }
 
+.novinky {
+  padding-bottom: 60px;
+}
+
 .novinky__obal {
   max-width: 1100px;
   margin: auto;
@@ -604,7 +610,7 @@ h4 {
 
 .novinky__nadpis {
   font-size: 22px;
-  text-align: center;
+  text-align: left;
 }
 
 .novinky__post {
