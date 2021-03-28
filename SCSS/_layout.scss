@@ -318,9 +318,14 @@
 }
 
 
-.novinky {max-width: 1100px;
-    margin: auto;
+.novinky {
     
+    &__obal {border-color:$bezova;
+        border-radius: 30px;
+        border-style: solid;
+        border-width: 1px;
+        max-width: 1100px;
+        margin: auto;}
     
     &__grid {display: grid;
         grid-template-columns: 1fr 1fr 1fr;

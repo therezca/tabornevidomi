@@ -584,7 +584,11 @@ h4 {
   }
 }
 
-.novinky {
+.novinky__obal {
+  border-color: #d3cc9e;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px;
   max-width: 1100px;
   margin: auto;
 }
