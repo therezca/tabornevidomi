@@ -613,6 +613,11 @@ h4 {
   border-style: solid;
   border-width: 1px;
   margin: auto;
+  padding: 30px;
+}
+
+.novinky__button {
+  margin: auto;
 }
 
 .novinky__obrys {

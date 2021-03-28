@@ -339,7 +339,10 @@
         border-style: solid;
         border-width: 1px;
         margin: auto;
+        padding: 30px;
         }
+
+    &__button {margin: auto;}
 
     &__obrys {
         display: flex;}
