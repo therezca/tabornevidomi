@@ -658,6 +658,76 @@ h4 {
   }
 }
 
+.tym {
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px 0px 70px 0px;
+}
+
+.tym__gridtreti {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.tym__h2 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.tym__perex {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.tym__obrys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tym__fotka {
+  border-radius: 50% 0;
+  width: 100%;
+}
+
+.tym__fotka:hover {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+@media screen and (max-width: 600px) {
+  .tym__gridtreti {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .tym__perex {
+    padding: 0px 30px;
+    font-size: 30px;
+  }
+  .tym__obrys {
+    padding: 0px 30px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  .tym__gridtreti {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .tym__perex {
+    padding: 0px 30px;
+    font-size: 30px;
+  }
+  .tym__obrys {
+    padding: 0px 30px;
+  }
+}
+
 .program {
   padding: 30px 0px;
   background-color: #7A7554;

@@ -376,3 +376,64 @@
         }
     
 }
+
+
+.tym {max-width: 1100px;
+    margin: auto;
+    padding: 30px 0px 70px 0px;
+    
+    &__gridtreti {display: grid;
+        grid-template-columns: 1fr 1fr;
+    grid-gap: 50px}
+
+    &__h2 {padding-bottom: 20px;
+    text-align: center;}
+
+    &__perex {font-size: 18px;
+    font-style: italic;}
+
+
+    &__obrys {
+        display: flex;}
+    
+    &__fotka {border-radius: 50% 0;
+        width: 100%;}
+
+    &__fotka:hover {
+            filter: blur(2px);
+        }
+
+         @media screen and (max-width: 600px){
+                
+         &__gridtreti {
+         grid-template-columns: 1fr;
+        gap: 0px;} 
+
+
+
+        &__perex {padding: 0px 30px;
+        font-size: 30px;}
+
+
+        &__obrys {
+            padding: 0px 30px;}
+        }
+            
+        @media screen and (min-width:601px) and (max-width: 1000px) {
+                
+            &__gridtreti {
+                grid-template-columns: 1fr;
+               gap: 0px;} 
+
+       
+               &__perex {padding: 0px 30px;
+               font-size: 30px;}
+
+       
+               &__obrys {
+                   padding: 0px 30px;}
+               
+        }
+    
+}
+
