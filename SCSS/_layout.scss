@@ -280,7 +280,9 @@
     a:active {color: $bezova;}
     }
 
-
+    &__blog {border: 1px solid $bezova;
+    border-radius: 20px;
+    padding: 10px;}
 
     &__item-image {width: 100%;
         height: 200px;

@@ -521,8 +521,6 @@ h4 {
 .galerie__blog a {
   text-decoration: none;
   color: #c1ff65;
-  border: 1px solid #d3cc9e;
-  border-radius: 20px;
 }
 
 .galerie__blog a:hover {
@@ -531,6 +529,12 @@ h4 {
 
 .galerie__blog a:active {
   color: #d3cc9e;
+}
+
+.galerie__blog {
+  border: 1px solid #d3cc9e;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .galerie__item-image {
