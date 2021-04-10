@@ -273,9 +273,11 @@
     &__ramecek {overflow: hidden;}
     
     &__blog {a {text-decoration: none;
-        color:$zelena;
-    border: 1px solid $bezova;
-border-radius: 20px;}
+        color:$zelena;}
+
+    &__blog {border: 1px solid $bezova;
+        border-radius: 20px;
+    padding: 10px;}
 
     
     a:hover {color: $bezova;}
