@@ -275,14 +275,15 @@
     &__blog {a {text-decoration: none;
         color:$zelena;}
 
-    &__blog {border: 1px solid $bezova;
-        border-radius: 20px;
-    padding: 10px;}
-
     
     a:hover {color: $bezova;}
     a:active {color: $bezova;}
     }
+
+    &__blog {border: 1px solid $bezova;
+    border-radius: 20px;
+padding: 10px;}
+
     &__item-image {width: 100%;
         height: 200px;
         object-fit: cover;}
