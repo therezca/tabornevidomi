@@ -670,6 +670,7 @@ h4 {
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
+  padding-bottom: 50px;
 }
 
 .tym__h2 {
